@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:599px){
+	
+nav{
+		display: none;
+	}
+	
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #666666;
+}
+#menu{
+	width: 100%;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 1%;
+	font-size: 26px;
+	text-align: right;
+	position: fixed;
+	z-index: 1;
+	height: 45px;
+}
+#submenu{
+	width: 100%;
+	margin-top: 45px;
+	position: fixed;
+	background-color: rgba(51,51,51,0.9);
+	z-index: 2;
+	text-align: right;
+	display: none;
+}
+#submenu a{
+	display: block;
+	color: #FFFFFF;
+	padding: 2%;
+}
+header, header img{
+	width: 100%;
+}
+header img{
+	margin-top: 45px;
+		
+	}	
+.titulo{
+	color: #A88A5F;
+	text-align: center;
+	font-size: 26px;
+}
+.subtitulo{
+	color: #A88A5F;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 5%;
+}
+section{
+	width: 100%;
+	min-height: 50%;
+	padding: 5%;	
+}
+#departamentos article{
+	width: 95%;
+	margin: 2.5%;  
+}
+#departamentos article img{
+	width: 100%;
+}
+#departamentos article div{
+	width: 100%;
+	height: 90%;
+	padding: 5%;
+	text-align: center;
+}
+.titulodep{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#galeria{
+	padding: 10%;
+}
+
+#blog article{
+	width: 95%;
+	margin-left: 2.5%;
+	height: auto;
+	text-align: center;
+	padding: 3%;
+	border: #A88A5F 1px solid;
+	border-radius: 5%;
+	color: #A88A5F;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+#blog p{
+	text-align: justify;
+}
+#blog article i{
+	font-size: 50px;
+	margin-top: 15%;
+}
+#contato{
+	margin-top: 2%;
+    min-height: 100%;
+}
+#contato article{
+	width: 100%;
+	padding: 2%;
+}
+.campo{
+	width: 100%;
+	margin-bottom: 0.5%;
+	padding: 45px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	resize: none;
+}
+.botao{
+	width: 100%;
+	border: none;
+	padding: 15px;
+	background-color: #666666;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+footer{
+	width: 100%;
+	background-color: #333333;
+	color: #CCCCCC;
+	text-align: center;
+	padding: 1%;	
+	clear: both;
+}
+
+}
